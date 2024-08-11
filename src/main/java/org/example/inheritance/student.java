@@ -7,9 +7,12 @@ public class student {
      void batch(){
         System.out.println("my name is "+name+". my roll number is "+rollnumber+". my psp is "+psp);
     }
-    public student(){
-         this.rollnumber=30;
-         this.name="sravani";
-         this.psp=40;
+    public student(String name){
+         System.out.println(name+" student");
+    }
+    public student(int rollnumber,String name,int psp){
+         this.rollnumber=rollnumber;
+         this.name=name;
+         this.psp=psp;
     }
 }
